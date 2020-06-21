@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+    import React, { useState } from "react";
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
@@ -41,7 +41,7 @@ const Form = () => {
 
         if (name.length < 3) {
             isError = true;
-            setNameError("Name needs to be atleast 3 characters long");
+            setNameError("Name needs to be atleast 4 characters long");
         }
 
         if (email.indexOf("@") === -1) {
